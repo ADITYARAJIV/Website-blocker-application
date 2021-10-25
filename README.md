@@ -5,7 +5,7 @@ Libraries used in this application are time and datetime for getting the current
 The coding part is very simple.
 
 We first decide a duration in which we want to block the websites. We also decide which websites have to be blocked.
-The we check if our current time is in the duration.
+Then we check if our current time is in the duration.
 If it is then we write to the hosts file local machine ip address and the website(domain) name.
 If it is outside the duration then we erase the file contents.
 
